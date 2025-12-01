@@ -56,7 +56,7 @@ function doCalculate() {
         if (num2 === 0) {
             result = 'Error' //cannot divide by 0
         } else {
-            result = num1/num2
+            result = num2/num1
         }
     }
     currentInput = result.toString()
